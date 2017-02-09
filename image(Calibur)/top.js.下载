@@ -1,0 +1,9 @@
+// JavaScript Document
+
+$(function(){
+	$(window).load(function(){
+		$("#common_menu").stop().animate({
+			"left": 0
+		},500,"easeInOutQuint");
+	});
+});

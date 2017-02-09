@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+
+.clearfix:after { clear: both; }
+
+img { vertical-align: bottom; }
+
+a { text-decoration: none; color: #adab01; }
+a:hover { text-decoration: underline; }
+
+li { list-style: none; }
+
+html { font-size: 62.5%; background: #000; }
+
+body { font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; color: #FFF; }
+
+/*************************************/
+#wrapper { min-width: 980px; min-height: 1000px; position: relative; }
+
+#main_contents { position: relative; margin-left: 320px; }
+
+#menu_wrap { position: absolute; width: 320px; height: 100%; }
+#menu_wrap #common_menu { position: absolute; }
+#menu_wrap .left_bg { position: fixed; top: 0; left: 40px; width: 149px; height: 100%; background: url("../img/common/bg_num.gif") no-repeat left top; z-index: -1; -webkit-transition: opacity 0.5s; transition: opacity 0.5s; -moz-transition: opacity 0.5s; -ms-transition: opacity 0.5s; -o-transition: opacity 0.5s; }
+#menu_wrap .naviCaver { position: absolute; width: 320px; height: 320px; background: url("../img/common/dot.png"); top: 181px; }
+#menu_wrap .naviCaver #shear { position: absolute; top: 273px; left: 20px; z-index: 30; }
+#menu_wrap .naviCaver #shear p { float: left; height: 13px; overflow: hidden; }
+#menu_wrap .naviCaver #shear p a:hover img { margin-top: -13px; }
+#menu_wrap .naviCaver #shear p#share_tw { margin-left: 12px; padding-right: 13px; background: url("../../img/left_common/share/slash.png") no-repeat right top; }
+#menu_wrap .naviCaver #shear p#share_fb { margin-left: 9px; }
+#menu_wrap h1 { padding-top: 45px; margin-left: 20px; }
+#menu_wrap h2 { margin: 13px 0 35px 20px; }
+#menu_wrap #menuArea { position: relative; width: 320px; height: 320px; }
+#menu_wrap #menuArea #grand_top { position: absolute; height: 27px; overflow: hidden; top: 13px; left: 20px; }
+#menu_wrap #menuArea #grand_top:hover img { margin-top: -27px; }
+#menu_wrap #menuArea .series { position: absolute; left: 20px; top: 68px; width: 150px; }
+#menu_wrap #menuArea .series ul li { height: 20px; overflow: hidden; margin-bottom: 9px; }
+#menu_wrap #menuArea .series ul li:hover img { margin-top: -20px; }
+#menu_wrap #menuArea .series ul li.current img { margin-top: -20px; }
+#menu_wrap #menuArea .menu { position: absolute; left: 204px; top: 28px; }
+#menu_wrap #menuArea .menu ul li { height: 12px; overflow: hidden; margin-bottom: 15px; }
+#menu_wrap #menuArea .menu ul li:hover img { margin-top: -12px; }
+#menu_wrap #menuArea .menu ul li.current img { margin-top: -12px; }
+#menu_wrap #seriesLinks { position: relative; margin-top: 25px; }
+#menu_wrap #seriesLinks .volnavi li p { position: absolute; top: 0; }
+#menu_wrap #seriesLinks .volnavi li p.on { opacity: 0; filter: alpha(opacity=0); }
+#menu_wrap #seriesLinks .volnavi li.current p.on { opacity: 1; filter: alpha(opacity=100); }
+#menu_wrap #seriesLinks .over { position: relative; top: 0; z-index: 20; }
+#menu_wrap .copyright { margin: 5px 0 0 20px; }
+
+#menu_wrap #common_menu.start { left: 320px; }
+
+#main_contents .mainIMage { position: absolute; z-index: -1; width: 100%; }
+#main_contents .mainIMage img { width: 100%; }
+#main_contents h1 { padding-top: 45px; margin-left: 20px; }
+#main_contents .catch { margin: 60px 0 0 35px; }

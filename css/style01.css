@@ -1,0 +1,153 @@
+/*
+*{
+    padding:0;
+    margin:0;
+}!*通配符选择器 对所有元素进行设置*!
+.body-box{
+    width:100%;
+    height:100%;
+    max-width: 1650px;
+
+}
+
+.body-box .left-box{
+    width: 320px;
+    height: 1200px;
+    overflow: hidden;
+    margin:0 auto;
+
+}
+.body-box .left-box .left-box-bg-box{
+    width:320px;
+    height:1240px;
+    margin-left:-515px;
+    background-color:black;
+    position:absolute;
+    z-index:-1;
+}
+.body-box .left-box .left-box-bg{
+    position: fixed;
+    top: 1px;
+    left: 56px;
+    width: 349px;
+    background: url("../image/bg_num.gif") no-repeat ;
+    z-index: -1;
+!*    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;*!
+}
+
+
+.body-box .left-box .left-box-one{
+    margin:43px auto 0 -500px;
+    position:absolute;
+
+}
+.body-box .left-box .left-box-two{
+    position:absolute;
+    margin-top:35px;
+    margin-left:-500px;
+    vertical-align: baseline;
+}
+.body-box .left-box .left-box-three{
+    width:320px;
+    height:100%;
+    margin-top:235px;
+    margin-left:-550px;
+    position:absolute;
+    z-index: auto;
+}
+.body-box .left-box .left-box-three .left-box-three-lefttext{
+    width:90px;
+    margin:50px 0 0 20px;
+    float:left;
+
+}
+.body-box .left-box .left-box-three .left-box-three-righttext{
+    width:220px;
+    margin:-221px 20px  10px 185px;
+    float: left;
+}
+.body-box .left-box .left-box-three-bottom-box{
+    margin:370px auto auto 55px;
+    position:absolute;
+
+}
+.body-box .left-box .left-box-three-bottom-box .share_tw{
+    margin:-30px 0 0 40px;
+    color:#06ecec ;
+}
+.body-box .left-box .left-box-three-bottom-box .share_fb{
+    margin:-24px 0 0 81px;
+}
+.body-box .left-box .left-box-four{
+    margin: 620px 0 10px -514px;
+
+    position: absolute;
+}
+.body-box .left-box .left-box-four .left-box-four-img{
+    margin: 87px 20px 0 20px;
+}
+.right-box{
+    height:1240px;
+    width:100%;
+    max-width:1330px;
+    margin:-1200px auto 0 320px;
+    background-color: black;
+}
+.right-box .right-box-one{
+    margin:0 auto;
+}
+.right-box .right-box-one .right-box-one-img01{
+    left:0 ;
+    top:0;
+}
+.right-box .right-box-one .right-box-one-img01 .right-box-one-img01-mainimg{
+    position:absolute;
+    height:790px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.right-box .right-box-one .right-box-one-img01 .right-box-one-img01-logo{
+    position:absolute;
+    margin:589px 0 0 180px;
+
+}
+.right-box .right-box-one .right-box-one-img01 .right-box-one-img01-Cimg01{
+    position:absolute;
+    margin:165px 0 0 0;
+}
+.right-box .right-box-one .right-box-one-img01 .right-box-one-img01-bottomimg{
+    position:absolute;
+    margin:805px 0 0 0;
+}
+.right-box .right-box-one .right-box-one-img01 .right-box-one-img01-bottomimg .right-box-one-img01-bottomimg-icon{
+    position:absolute;
+    margin:0 0 0 347px;
+}
+.right-box .right-box-one .right-box-one-img02{
+    margin:0  0 0 399px;!*右偏49px*!
+}
+.right-box .right-box-one .right-box-one-img02 .img02-main{
+    height:790px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.right-box .right-box-one .right-box-one-img02 .img02-main .img02-Cimg2 {
+    position: absolute;
+    margin: 0 0 0 -51px;
+}
+.right-box .right-box-one .right-box-one-img02  .img02-bottom{
+    position:absolute;
+    margin:937px 0 0 0; !*两图片中间值36px*!
+}
+.right-box .right-box-one .right-box-one-img02  .img02-bottom .img02-bottom-icon{
+    position:absolute;
+    margin-left:1036px;
+}
+.right-box .right-box-one .right-box-one-img03{
+    margin:-823px 0 0 772px;
+    height:790px;
+    overflow: hidden;
+}*/

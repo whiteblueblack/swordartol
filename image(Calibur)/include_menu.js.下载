@@ -1,0 +1,123 @@
+var html = '<p id="left_bg0" class="left_bg"><img src="/calibur/img/common/bg_line.png" alt="" width="149" height="1200"></p>';
+//html += '<div id="common_menu">';
+
+html += '<div class="naviCaver">';
+html += '<div id="shear" class="sns clearfix">';
+html += '<p><img src="/img/left_common/share/title_share.png" alt="SHARE" width="30" height="13"></p>';
+html += '<p id="share_tw" class="share"><a href="https://twitter.com/intent/tweet?text=TV%e3%82%a2%e3%83%8b%e3%83%a1%e6%96%b0%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e5%a7%8b%e5%8b%95%20%e3%80%8c%e3%82%bd%e3%83%bc%e3%83%89%e3%82%a2%e3%83%bc%e3%83%88%e3%83%bb%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3II%e3%80%8d2014%20Activated%21%21%20%23sao_anime&url=http://www.swordart-online.net/" target="_blank"><img src="/calibur/img/common/share/twitter.png" alt="" width="16" height="26"></a></p>';
+html += '<p id="share_fb"  class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.swordart-online.net/&display=popup" target="_blank"><img src="/calibur/img/common/share/facebook.png" alt="" width="7" height="26"></a></p>';
+html += '</div>';
+html += '</div>';
+
+if(location.href.indexOf("#!") == -1){
+	html += '<div id="common_menu">';
+
+}else{
+	html += '<div id="common_menu" class="start">';
+}
+
+html += '<h1><a href="/"><img src="/img/left_common/titlelogo2.png" alt="ソードアート・オンライン SWORD ART ONLINE" width="280" height="42"></a></h1>';
+html += '<h2 class="title"><img src="/calibur/img/common/logo_calibur.png" height="46" width="280" alt=""></h2>';
+html += '<section id="menuArea">';
+html += '<p id="grand_top"><a href="/#2/"><img src="/calibur/img/common/btn_back.png" alt="" width="33" height="54"></a></p>';
+
+html += '<nav class="series">';
+html += '<ul id="vol_nav">';
+html += '<li><a href="http://sao-movie.net/" target="_blank"><img src="/img/left_common/menu_vol/movie.png" height="40" width="150" alt="「劇場版 ソードアート・オンライン -オーディナル・スケール-」 公式サイト"></a></li>';
+html += '<li><a href="/mothers/"><img src="/img/left_common/menu_vol/mother.png" height="40" width="150" alt=""></a></li>';
+html += '<li class="current"><a href="/calibur/"><img src="/img/left_common/menu_vol/culibur.png" height="40" width="150" alt=""></a></li>';
+html += '<li><a href="/phantom/"><img src="/img/left_common/menu_vol/phantombullet.png" height="40" width="150" alt=""></a></li>';
+html += '<li><a href="/extra/"><img src="/img/left_common/menu_vol/extraedition.png" height="40" width="150" alt=""></a></li>';
+html += '<li><a href="/fairy/"><img src="/img/left_common/menu_vol/fairydance.png" height="40" width="150" alt=""></a></li>';
+html += '<li><a href="/aincrad/"><img src="/img/left_common/menu_vol/aincrad.png" height="40" width="150" alt=""></a></li>';
+html += '</ul>';
+html += '</nav>';
+
+html += '<nav class="menu">';
+html += '<ul id="global_nav">';
+html += '<li><a href="/calibur/" class="pjax"><img src="/calibur/img/common/menu/top.png" height="24" width="26" alt=""></a></li>';
+html += '<li><a href="/calibur/intro/" class="pjax"><img src="/calibur/img/common/menu/introduction.png" height="24" width="100" alt=""></a></li>';
+html += '<li><a href="/calibur/chara/"><img src="/calibur/img/common/menu/character.png" height="24" width="82" alt=""></a></li>';
+html += '<li><a href="/calibur/staff/" class="pjax"><img src="/calibur/img/common/menu/staffcast.png" height="24" width="85" alt=""></a></li>';
+html += '<li><a href="/calibur/story/"><img src="/calibur/img/common/menu/story.png" height="24" width="44" alt=""></a></li>';
+html += '<li><a href="/package/"><img src="/calibur/img/common/menu/bluraydvd.png" height="24" width="80" alt=""></a></li>';
+html += '<li><a href="/calibur/music/" class="pjax"><img src="/calibur/img/common/menu/themesong.png" height="24" width="90" alt=""></a></li>';
+html += '<li><a href="/calibur/onair/" class="pjax"><img src="/calibur/img/common/menu/onair.png" height="24" width="50" alt=""></a></li>';
+html += '<li><a href="/movie/"><img src="/calibur/img/common/menu/movie.png" height="24" width="50" alt=""></a></li>';
+html += '<li><a href="/calibur/special/" class="pjax"><img src="/calibur/img/common/menu/special.png" height="24" width="60" alt=""></a></li>';
+html += '</ul>';
+html += '</nav>';
+html += '</section>';
+/*
+html += '<section id="seriesLinks">';
+html += '<p><img src="/img/left_common/vol/mother.png" height="420" width="320" alt=""></p>';
+html += '<p class="current"><img src="/img/left_common/vol/calibur.png" height="420" width="320" alt=""></p>';
+html += '<p><img src="/img/left_common/vol/phontombullet.png" height="420" width="320" alt=""></p>';
+html += '<p><img src="/img/left_common/vol/extraedition.png" height="420" width="320" alt=""></p>';
+html += '<p><img src="/img/left_common/vol/fairydance.png" height="420" width="320" alt=""></p>';
+html += '<p><img src="/img/left_common/vol/aincrad.png" height="420" width="320" alt=""></p>';
+html += '<div class="over"><img src="/img/left_common/vol/spacer.gif" alt="" width="320" height="420" usemap="#vol_nav_map">';
+html +='<map name="Map">';
+html +='<area shape="poly" coords="312,7,5,68,3,139,311,73" href="#">';
+html +='</map>';
+html += '</div>';
+html += '<map id="vol_nav_map" name="vol_nav_map">';
+html +='<area shape="poly" coords="0,101,320,0,320,52,0,153" alt="" href="/mother/">';
+html +='<area shape="poly" coords="0,153,320,52,320,104,0,205" alt="" href="/calibur/" class="current">';
+html +='<area shape="poly" coords="0,205,320,104,320,156,0,257" alt="" href="/phantom/">';
+html +='<area shape="poly" coords="0,257,320,156,320,208,0,309" alt="" href="/extra/">';
+html +='<area shape="poly" coords="0,309,320,208,320,260,0,360" alt="" href="/fairy/">';
+html +='<area shape="poly" coords="0,360,320,260,320,316,0,412" alt="" href="/aincrad/">';
+html += '</map>';
+html += '</section>';*/
+
+html += '<section id="seriesLinks">';
+html += '<nav class="volnavi">';
+html += '<ul>';
+html += '<li>';
+html += '<p ><img src="/img/left_common/vol/ordinal_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/ordinal_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li>';
+html += '<p><img src="/img/left_common/vol/mothers_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/mothers_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li class="current">';
+html += '<p ><img src="/img/left_common/vol/calibur_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/calibur_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li>';
+html += '<p><img src="/img/left_common/vol/phantom_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/phantom_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li>';
+html += '<p><img src="/img/left_common/vol/extra_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/extra_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li>';
+html += '<p><img src="/img/left_common/vol/fairydance_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/fairydance_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '<li>';
+html += '<p><img src="/img/left_common/vol/aincrad_off.png" height="460" width="320" alt=""></p>';
+html += '<p class="on"><img src="/img/left_common/vol/aincrad_on.png" height="460" width="320" alt=""></p>';
+html += '</li>';
+html += '</ul>';
+html += '</nav>';
+
+html += '<div class="over"><img src="/img/left_common/vol/spacer.gif" alt="" width="320" height="460" usemap="#vol_nav_map"></div>';
+html += '<map id="vol_nav_map" name="vol_nav_map">';
+html += '<area shape="poly" coords="0,101,320,0,320,52,0,153" alt="" href="http://sao-movie.net/" target="_blank">';
+html += '<area shape="poly" coords="0,153,320,52,320,104,0,205" alt="" href="/mothers/">';
+html += '<area shape="poly" coords="0,205,320,104,320,156,0,257" alt="" class="current">';
+html += '<area shape="poly" coords="0,257,320,156,320,208,0,309" alt="" href="/phantom/">';
+html += '<area shape="poly" coords="0,309,320,208,320,260,0,360" alt="" href="/extra/">';
+html += '<area shape="poly" coords="0,360,320,260,320,312,0,412" alt="" href="/fairy/">';
+html += '<area shape="poly" coords="0,360,320,312,320,374,0,474" alt="" href="/aincrad/">';
+html += '</map>';
+html += '</section>';
+
+html += '<p class="copyright"><img src="/img/left_common/copyright.png" height="22" width="280" alt=""></p>';
+html += '</div>';
+
+document.write(html);

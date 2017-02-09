@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style03.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script>
+        window.onload = function(){
+            var oActive = document.getElementsByClassName("zuoxiaimgset")[0];
+            var oControl = document.getElementsByClassName("video-control")[0];
+            var oVideo = document.getElementsByClassName("video-box")[0];
+            var oThevideo = document.getElementById("video")[0];
+            oControl.onclick = function(){
+                if(oVideo.style.display=="block"){
+                    oVideo.style.display='none';
+                    oThevideo.muted = "true";
+                }else{
+                    oVideo.style.display='block';
+                }
+            };
+            oActive.onclick = function(){
+                if(oVideo.style.display=="none"){
+                    oVideo.style.display='block';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<!--主体界面-->
+<div class="wrap-box" style="position:relative">
+    <div class="video-box">
+        <div class="video-mask"></div>
+        <p class="video-control">&times;</p>
+        <video src="video/index.mp4" id="video" controls="controls"  autoplay="autoplay">您的浏览器不支持</video>
+    </div>
+    <div class="body-box xiangduiD">
+        <div class="bgimg-set">
+            <div class="bgimg xiangduiD">
+            </div>
+        </div>
+        <div class="imgin jueduiD">
+            <a href="#"><img src="img(TheatreEdition)/logo.png" class="imginset" alt="logo"></a>
+        </div>
+        <div class="centerimg jueduiD">
+            <img src="img(TheatreEdition)/catch01.png" class="centerimgset" alt="centerwenzi">
+        </div>
+        <div class="yoxiaimg jueduiD">
+            <img src="img(TheatreEdition)/catch02.png" class="youxiaimgset" alt="yoxuaiwenzi">
+        </div>
+        <div class="zuoxiaimg jueduiD">
+            <a href="#"><img src="img(TheatreEdition)/movie_thumb.png" class="zuoxiaimgset" alt=""></a>
+            <p class="zuoxiaimg-wenzi">预告片2</p>
+        </div>
+        <!--下方导航栏-->
+        <div class="nav-box xiangduiD">
+            <div class="nav-top ">
+                <a href="#"><span class="nav-top-1 "><img src="img(TheatreEdition)/m_news.png" alt=""></span></a>
+                <a href="#"><span class="nav-top-2  "><img src="img(TheatreEdition)/story.png" alt=""></span></a>
+                <a href="#"><span class="nav-top-2  "><img src="img(TheatreEdition)/staff.png" alt=""></span></a>
+                <a href="#"><span class="nav-top-2  "><img src="img(TheatreEdition)/character.png" alt=""></span></a>
+                <span class="nav-top-3  "><img src="img(TheatreEdition)/ticket.png" alt=""></span>
+                <a href="#"><span class="nav-top-2  "><img src="img(TheatreEdition)/trailer.png" alt=""></span></a>
+                <a href="#"><span class="nav-top-2  "><img src="img(TheatreEdition)/special.png" alt=""></span></a>
+            </div>
+            <!--导航栏下部分-->
+            <div class="nav-bottom jueduiD">
+                <a href="#"><span class="nav-bottom-1 "><img src="img(TheatreEdition)/news.png" alt=""></span></a>
+                <a href="#"><span class="nav-bottom-2 jueduiD"><img src="img(TheatreEdition)/news_more.png" alt=""></span></a>
+            </div>
+        </div>
+        <div class="bottom-box jueduiD">
+            <a href="#"><span class="bottom-box-twitter jueduiD"><img src="img(TheatreEdition)/s_twitter.png" alt=""></span></a>
+            <a href="#"><span class="bottom-box-facebook jueduiD"><img src="img(TheatreEdition)/t_facebook.png" alt=""></span></a>
+            <p class="bottom-box-wenzi jueduiD">&copy;REKI KAWAHARA/PUBLISHED BY KADOKAWA CORPORATION/SAO MOVIE Project</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
